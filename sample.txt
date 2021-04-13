@@ -12,14 +12,10 @@
     },
     
 	    },
-	"ClientCode" : {
-      "Description" : " The is the client code will be used for Instance Name",
-      "Type": "String",
-      "MinLength": "3",
-      "MaxLength": "3",
-      "AllowedPattern": "[A-Z]*",
-      "ConstraintDescription": "The is the client code will be used for Instance Name"
-	},
+		
+		
+		
+	,
 	"PSK" : {
 	  "Description" : "Pre Shared Key for VPN connection",
 	  "Type" : "String",
