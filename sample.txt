@@ -11,22 +11,7 @@
         "Description": "The listed availability zones are available in this region"
     },
     
-	"Subnet1" : {
-      "Description" : " The IP address range that can be used to Public Subnet",
-      "Type": "String",
-      "MinLength": "9",
-      "MaxLength": "18",
-      "AllowedPattern": "(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})/(\\d{1,2})",
-      "ConstraintDescription": "must be Enter Even subnet Under Above CidrBlock Id x.x.x.x/x."
-    },
-	"Subnet2" : {
-      "Description" : " The IP address range that can be used to Private Subnet",
-      "Type": "String",
-      "MinLength": "9",
-      "MaxLength": "18",
-      "AllowedPattern": "(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})\\.(\\d{1,3})/(\\d{1,2})",
-      "ConstraintDescription": "must be Enter Odd subnet Under Above CidrBlock Id x.x.x.x/x."
-    },
+	    },
 	"ClientCode" : {
       "Description" : " The is the client code will be used for Instance Name",
       "Type": "String",
