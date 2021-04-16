@@ -1,14 +1,7 @@
 {
   "AWSTemplateFormatVersion" : "2010-09-09",
 
-  "Description" : "AWS CloudFormation Template to Create a VPC with Public and Private Subnets: This is the template will create FSR,XTR and OpenSwan Instances along with routes,Security Groups Elastic IP's.",
-
-  "Parameters" : {
-	
-	"AvailabilityZone": {
-        "Type": "AWS::EC2::AvailabilityZone::Name",
-        "Default": "eu-west-1a",
-        "Description": "The listed availability zones are available in this region"
+  "Description" : "AWS CloudFormation Template to Create a VPC with Public and Private Subnets: This is the template will create FSR,XTR and OpenSwan Instances along with routes,Security Groups Elastic IP'sility zones are available in this region"
     },
     
 	    },
