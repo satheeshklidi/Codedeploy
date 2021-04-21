@@ -1,0 +1,21 @@
+ =====create security groups for VPN and Inbound/Outbound
+
+=====change src/dest check --STOP
+
+=====get network inface of openswan
+
+======Add routes 10.12.0.0/16,10.14.0.0/16,192.168.0.0/17 to Network interface of openswan
+
+=====Launch 1 FSR and 1 XTR with an image from market place based on name (check to see if this works or if we need to add any other filters)
+
+=====Add "userdata" to the instances to install software ( we can take this from JSON)
+
+
+UserData" : { "Fn::Base64" : { "Fn::Join" : ["", [
+				"<powershell>\n",
+				"Set-NetFirewallProfile -Profile Domain,Public,Private -Enabled False", "\n", 
+				"Rename-Computer -NewName ", { "Fn::Join": ["-",["AMW",{"Ref":"ClientCode"},"FSR-01"]]}, " -Force", "\n",
+				"Restart-Computer","\n",
+				"</powershell>"
+
+
