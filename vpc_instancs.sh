@@ -7,12 +7,12 @@
 #read -p "Enter keypairname: " KEYPAIR
 #read -p "Enter Availability Zone: " AZ
 
-CIDR = 10.200.0.0/16
-VPC_NAME = SatheeshVPC
-PUBLIC_SUBNET = 10.200.1.0/24
-PRIVATE_SUBNET = 10.200.2.0/24
-KEYPAIR = Satheesh
-AZ = ap-northeast-1a
+CIDR = "10.200.0.0/16"
+VPC_NAME = "SatheeshVPC"
+PUBLIC_SUBNET = "10.200.1.0/24"
+PRIVATE_SUBNET = "10.200.2.0/24"
+KEYPAIR = "Satheesh"
+AZ = "ap-northeast-1a"
 #=============================================================================
 # create VPC
 #=============================================================================
