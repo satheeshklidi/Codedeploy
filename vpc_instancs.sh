@@ -1,11 +1,18 @@
 #! /bin/bash
 #AZ=ap-south-1a
-read -p "Enter the CIDR for VPC: " CIDR
-read -p "Enter VPC Name: " VPC_NAME
-read -p "Enter Public Subnet: " PUBLIC_SUBNET
-read -p "Enter Private Subnet: " PRIVATE_SUBNET
-read -p "Enter keypairname: " KEYPAIR
-read -p "Enter Availability Zone: " AZ
+#read -p "Enter the CIDR for VPC: " CIDR
+#read -p "Enter VPC Name: " VPC_NAME
+#read -p "Enter Public Subnet: " PUBLIC_SUBNET
+#read -p "Enter Private Subnet: " PRIVATE_SUBNET
+#read -p "Enter keypairname: " KEYPAIR
+#read -p "Enter Availability Zone: " AZ
+
+CIDR = 10.200.0.0/16
+VPC_NAME = SatheeshVPC
+PUBLIC_SUBNET = 10.200.1.0/24
+PRIVATE_SUBNET = 10.200.2.0/24
+KEYPAIR = Satheesh
+AZ = ap-northeast-1a
 #=============================================================================
 # create VPC
 #=============================================================================
